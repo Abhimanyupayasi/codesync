@@ -8,6 +8,8 @@ import { LiveblocksProvider, RoomProvider, ClientSideSuspense } from "@liveblock
 import { CollaborativeEditor } from './CollaborativeEditor'; // Import CollaborativeEditor
 import { useParams } from 'react-router-dom'; // Import useParams to get the room ID
 import Homepage from './pages/Homepage';
+import AboutComponent from './pages/AboutComponent';
+import BlogComponent from './pages/BlogComponent';
 
 function App() {
   const publicKey = import.meta.env.VITE_PUBLIC_KEY;
@@ -20,6 +22,8 @@ console.log(publicKey);
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<AboutComponent />} />
+          <Route path="/blogs" element={<BlogComponent />} />
           
           <Route
             path="/room/:id"

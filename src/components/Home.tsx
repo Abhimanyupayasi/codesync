@@ -18,7 +18,7 @@ const Home = () => {
   return (
    <div>
     <Header/> 
-   <div className="h-screen bg-gradient-to-r from-indigo-600 via-blue-500 to-indigo-400">
+   <div className="mt-20 pb-10  bg-gradient-to-r from-indigo-600 via-blue-500 to-indigo-400">
    <div className="flex mt-20 flex-col items-center justify-center h-full text-center px-4">
      {/* Welcome message with username */}
      <motion.h1
@@ -50,9 +50,13 @@ const Home = () => {
      >
        Create Room
      </motion.button>
-
+     <h2 className="text-center text-gray-300 py-2 text-3xl">"Innovating for seamless experiences."</h2>
      {/* Future Features Section */}
      <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-8">
+
+     
+
+
        {/* Whiteboard Option */}
        <motion.div
          className="option bg-white/30 backdrop-blur-md p-6 rounded-xl shadow-lg cursor-pointer"
