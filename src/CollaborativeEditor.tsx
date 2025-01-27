@@ -110,7 +110,7 @@ export function CollaborativeEditor() {
       setIsResultVisible(true); // Show the result div
     } catch (err) {
       console.error("Error executing code:", err);
-      setOutput(`Error: ${err.message || err}`); // Capture any errors
+      setOutput("error") // Capture any errors
       setIsResultVisible(true); // Show the error in the result div
     }
   };

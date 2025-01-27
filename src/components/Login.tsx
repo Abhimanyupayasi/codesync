@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion"; // Importing Framer Motion for animations
 import gsap from "gsap"; // Importing GSAP for additional animations

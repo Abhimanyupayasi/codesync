@@ -1,6 +1,6 @@
-import React from 'react'
+
 import Header from './Header/Header'
-import Home from '../components/Home'
+
 import HomeComponent from '../components/HomeComponent'
 
 export default function Homepage() {

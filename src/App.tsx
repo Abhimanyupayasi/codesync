@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Register from './components/Register';
 import Login from './components/Login';
 import Home from './components/Home';
-import Room from './components/Room';  // Import Room component
+ // Import Room component
 
 import { LiveblocksProvider, RoomProvider, ClientSideSuspense } from "@liveblocks/react/suspense";
 import { CollaborativeEditor } from './CollaborativeEditor'; // Import CollaborativeEditor
