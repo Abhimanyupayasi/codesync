@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FaCode } from 'react-icons/fa'; // Code icon for the logo
 import { FiLogIn } from 'react-icons/fi'; // Login icon
 import { FaChevronDown } from 'react-icons/fa'; // Downward Chevron icon for toggle
